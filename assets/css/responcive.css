@@ -64,6 +64,9 @@
         width: 100%;
         height: 200%;
     }
+    #tech h2{
+     margin-top: 150px;   
+    }
     #tech input{
         width: 100%;
     }
