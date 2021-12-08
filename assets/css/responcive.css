@@ -37,6 +37,10 @@
     #header img{
         width: 220px;
     }
+    #header ul li a {
+        margin: 0px;
+       margin-left: -100px;
+    }
     #home h1{
         font-size: 40px;
         margin: 0px;
@@ -66,9 +70,9 @@
     #tech textarea{
         width: 100%;
     }
-    #footer{
+    /* #footer{
         text-align: center;
-    }
+    } */
     #footer img{
         width: 250px;
     }
