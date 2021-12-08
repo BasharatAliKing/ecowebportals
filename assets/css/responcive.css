@@ -1,0 +1,93 @@
+@media(max-width:992px){
+  #enabling h2{
+      font-size: 40px;
+  }
+  #point h2{
+      margin-right: 0px;
+  }
+ #tech iframe{
+     width: 450px;
+ }
+#footer h4{
+    font-size: 30px;
+    margin-top: 30px;
+}
+#footer ul li a{
+    margin-left: 0px;
+    padding-left: 0px;
+    color: black;
+}
+#footer img{
+    margin-top: 50px;
+}
+}
+@media (max-width:764px){
+  #tech iframe{
+      width: 90%;
+  }
+  #tech input{
+      width: 90%;
+  }
+  #tech textarea{
+      width: 90%;
+  }
+}
+
+@media (max-width:576px){
+    #header img{
+        width: 250px;
+    }
+    #home h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+    #home{
+        padding: 70px 0px;
+    }
+    #major-projects iframe{
+        width: 100%;
+    }
+    #enabling .media{
+        margin-top: 40px;
+    }
+    #services .card h4{
+        font-size: 30px;
+    }
+    #services .card p{
+        font-size: 18px;
+    }
+    #tech iframe{
+        width: 100%;
+    }
+    #tech input{
+        width: 100%;
+    }
+    #tech textarea{
+        width: 100%;
+    }
+    #footer{
+        text-align: center;
+    }
+    #footer img{
+        width: 250px;
+    }
+    #footer h4{
+        text-align: start;
+        font-size: 30px;
+    }
+    #footer p{
+        text-align: start;
+    }
+    #footer ul  {
+        text-align: start;
+    }
+    
+    #footer .icons{
+        text-align: start;
+    }
+    footer{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}

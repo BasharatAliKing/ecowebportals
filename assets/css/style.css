@@ -1,0 +1,319 @@
+
+#header{
+    background-color: #f8f9fa!important;
+    position:static;
+}
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+a img{
+    width: 350px;
+}
+ul{
+    margin-left: 100px;
+}
+ul li a {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+ 
+
+#home{
+ 
+    background: url('/assets/pics/sigmund-taxUPTfDkpc-unsplash-1-scaled.jpg')no-repeat center center/cover;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: 'Work Sans', sans-serif;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+#home h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+#home h6{
+    font-size: 20px;
+}
+#home .btn{
+    font-weight: bold;
+    background-color:#67bd1700 ;
+    margin-top: 10px;
+    border-radius: 50px;
+     padding: 8px 40px;
+     border: 2px solid white;
+     color: white;
+}
+#home #butn{
+    margin-top: 10px;
+   border-radius: 50px;
+    padding: 10px 40px;
+    background-color: #67BD17;
+    border: 0px solid #67BD17;
+    color: white;
+}
+#home #butn:hover{
+    background-color: white;
+    color: #67BD17;
+}
+
+#home .btn:hover{
+    background-color:#67bd1700 ;
+    color: #39690b;
+}
+#enabling{
+    margin-top: 120px;
+}
+#enabling h2{
+    font-size: 45px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    line-height: 50px;
+}
+#enabling .btn{
+    border: 2px solid #67BD17;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 40px;
+}
+#enabling .btn:hover{
+    background-color: #67BD17;
+    color: white;
+}
+#enabling h4{
+    font-weight: bold;
+}
+
+#services{
+    margin-top: 80px;
+    background-color: #d6c7d647;
+    padding: 60px 0px;
+}
+#services h1{
+    font-family: 'Alike Angular', serif;
+    color: blue;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#services h1::after{
+    content: " ";
+display: block;
+    background: #67BD17;
+    width: 200px;
+    height: 4px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+#services img{
+    width: 80px;
+    margin: 40px auto;
+    
+}
+#services .col-md-3 .card{
+    text-align: center;
+    /* box-shadow: 0px 0px 4px 4px rgb(209, 208, 208); */
+    border: none;
+}
+
+#services .col-md-3 .card:hover{
+    text-align: center;
+    box-shadow: 0px 0px 8px 4px  white;
+}
+
+#point{
+    background: url('/assets/pics/pexels-cottonbro-5474031-scaled.jpg')no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    color: white;
+}
+#point h2{
+    font-size: 36px;
+    margin-right: 100px;
+    font-family: 'Allerta Stencil', sans-serif;
+    letter-spacing: 4px;
+}
+#point p{
+    margin-top: 30px;
+}
+#point .btn{
+    border: none;
+    background-color: #67BD17;
+    color: white;
+    padding: 10px 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+#point .btn:hover{
+    background-color: white;
+    color: #67BD17;
+}
+
+#major-projects{
+    background-color: #d6c7d647;
+    padding: 60px 0px;
+}
+#major-projects h1{
+    font-family: 'Alike Angular', serif;
+    color: blue;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#major-projects h1::after{
+    content: " ";
+display: block;
+    background: #67BD17;
+    width: 300px;
+    height: 4px;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+#major-projects h5{
+    background-color: white;
+    padding: 8px 10px;
+
+}
+#major-projects h5 span{
+    font-size: 25px;
+    color: #67BD17;
+    font-weight: bolder;
+    margin-top: -3px;
+}
+#major-projects span{
+    font-size: 25px;
+    color: #67BD17;
+    font-weight: bolder;
+    margin-top: -3px;
+}
+#major-projects p{
+    margin-top: 20px;
+    color: rgb(180, 176, 176);
+    font-size: 18px;
+}
+#clients{
+    margin-top: 80px;
+}
+#clients h1{
+    font-family: 'Alike Angular', serif;
+    color: blue;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#clients p{
+    padding: 15px;
+    /* box-shadow: inset 12px 0 13px rgb(0 0 0 / 50%); */
+    /* margin: 20px;
+    margin-bottom: 0px; */
+}
+/* #clients #para{
+    
+    background: #9b9b9b;
+    margin-bottom: 10px;
+} */
+/* #clients #para::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: rgb(71, 22, 22);
+    border-left-color: rgb(75, 28, 28);
+    transform: rotate(315deg);
+} */
+#clients .media-body p{
+  padding: 0px;
+}
+
+#tech{
+    margin-top: 80px;
+}
+#tech h1{
+    font-family: 'Alike Angular', serif;
+    color: blue;
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 6px;
+}
+#tech h1::after{
+    content: " ";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background-color: #67BD17;
+    margin: 10px auto;
+}
+#tech h2::after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #67BD17;
+    margin: 30px 0px;
+}
+#tech .btn{
+    background-color: #67BD17;
+    padding: 10px 20px ;
+    color: white;
+    border-radius: 30px;
+}
+#tech .btn:hover{
+ background-color: white;
+ color: #67BD17;
+ border: 1px solid #67BD17;
+}
+#footer{
+    margin-top: 80px;
+}
+#footer ul li{
+    margin-top: 5px;
+}
+#footer ul li a {
+    margin: 0px;
+    padding:0px;
+    color:#b3b3b3;
+}
+#footer ul li a:hover{
+    color: black;
+    text-decoration: none;
+}
+#footer i{
+    font-size: 30px;
+    /* border: 1px solid orange; */
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+#footer #facebook{
+    background-color: blue;
+    padding: 11px 12px;
+}
+#footer #twitter{
+    background-color: rgb(128, 126, 240);
+    padding: 11px 12px;
+}
+#footer #instagram{
+    background-color: purple;
+    padding: 11px 12px;
+}
+#footer #linkedin{
+    background-color: royalblue;
+    padding: 11px 12px;
+}
+#footer img{
+    width: 200px;
+}
+
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 30px;
+   
+}
+footer .col-md-12{
+    border-left: 3px solid #67BD17;
+}
+
